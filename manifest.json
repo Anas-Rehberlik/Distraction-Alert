@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Distraction Alert",
+  "version": "1.0",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.instagram.com/*",
+    "*://*.jiocinema.com/*",
+    "*://*.twitter.com/*",
+    "*://*.linkedin.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.instagram.com/*",
+        "*://*.jiocinema.com/*",
+        "*://*.twitter.com/*",
+        "*://*.linkedin.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
