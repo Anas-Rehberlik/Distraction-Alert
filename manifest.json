@@ -12,7 +12,7 @@
     "*://*.youtube.com/*",
     "*://*.instagram.com/*",
     "*://*.jiocinema.com/*",
-    "*://*.twitter.com/*",
+    "*://*.x.com/*",
     "*://*.linkedin.com/*"
   ],
   "background": {
@@ -24,7 +24,7 @@
         "*://*.youtube.com/*",
         "*://*.instagram.com/*",
         "*://*.jiocinema.com/*",
-        "*://*.twitter.com/*",
+        "*://*.x.com/*",
         "*://*.linkedin.com/*"
       ],
       "js": ["content.js"]

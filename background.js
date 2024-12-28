@@ -27,7 +27,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://*.youtube.com/*",
       "*://*.instagram.com/*",
       "*://*.jiocinema.com/*",
-      "*://*.twitter.com/*",
+      "*://*.x.com/*",
       "*://*.linkedin.com/*"
     ]
   },
